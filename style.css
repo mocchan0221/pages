@@ -1,0 +1,160 @@
+/* Reset Styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+}
+
+/* Header Styles */
+header {
+	background-color: #333;
+	color: #fff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 10px 20px;
+	z-index: 999;
+}
+
+header h1 {
+	font-size: 30px;
+	margin: 0;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	margin-left: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+/* Main Styles */
+main {
+	padding: 80px 20px 20px;
+	margin-top: 60px;
+}
+
+main h2 {
+	font-size: 28px;
+	margin-bottom: 20px;
+}
+
+main p {
+	margin-bottom: 20px;
+}
+
+section {
+	margin-bottom: 60px;
+}
+
+section ul {
+	list-style: none;
+	margin-left: 20px;
+}
+
+section li {
+	margin-bottom: 10px;
+}
+
+section h3 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+/* Education Section */
+#education {
+	margin-bottom: 0;
+}
+
+#education ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#education li {
+	flex-basis: 50%;
+}
+
+/* Footer Styles */
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	margin-top: 60px;
+}
+
+footer p {
+	margin: 0;
+}
+
+footer nav {
+	margin-bottom: 20px;
+}
+
+footer ul {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+footer li {
+	margin-left: 20px;
+}
+
+footer a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+	main {
+		padding-top: 60px;
+	}
+
+	header {
+		padding: 10px;
+	}
+
+	header h1 {
+		font-size: 24px;
+	}
+
+	nav ul {
+		flex-wrap: wrap;
+	}
+
+	nav li {
+		margin: 10px 0;
+	}
+
+	section ul {
+		margin-left: 0;
+	}
+
+	#education ul {
+		flex-direction: column;
+	}
+}
